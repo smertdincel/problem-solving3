@@ -1,6 +1,6 @@
 //***********************************************************************************************************************************************************************
-//****************************************                        STUDENT NAME=SADIK MERT D›NCEL                          ***********************************************
-//****************************************                        STUDENT NUMBER=B221202372                               ***********************************************
+//****************************************                        STUDENT NAME=SADIK MERT D√ùNCEL                          ***********************************************
+//****************************************                        STUDENT NUMBER=B*********                               ***********************************************
 //****************************************                        HONOR CODE= I  DID  MYSELF HOMEWORK                     ***********************************************
 //****************************************            ASSIGNMENT=PROBLEM SOLVING IN SOFTWARE ENGINEERING THIRD HOMEWORK  ***********************************************
 //***********************************************************************************************************************************************************************
@@ -16,7 +16,7 @@ const int ROWS = 10;
 const int COLUMNS = 10;
 using namespace std;
 
-bool checkWord(const char Alphabet[MAX], const char c) {         //CHECKS ›F THE ENTERED LETTERS ARE ›N 
+bool checkWord(const char Alphabet[MAX], const char c) {         //CHECKS √ùF THE ENTERED LETTERS ARE √ùN 
   for (int i = 0; i < MAX; i++) {
     if (Alphabet[i] == c) {
       return true;
@@ -25,7 +25,7 @@ bool checkWord(const char Alphabet[MAX], const char c) {         //CHECKS ›F THE
   return false;
 }
 
-bool search( char matrix[ROWS][COLUMNS], char search) {             //CHECKS WHETHER THE G›VEN LETTERS EX›ST ›N THE MATR›X
+bool search( char matrix[ROWS][COLUMNS], char search) {             //CHECKS WHETHER THE G√ùVEN LETTERS EX√ùST √ùN THE MATR√ùX
   for (int i = 0; i < ROWS; i++) {
     for (int j = 0; j < COLUMNS; j++) {
       if (matrix[i][j] == search) {
@@ -53,12 +53,12 @@ int main() {
  srand(time(NULL));           // Seed the random number generator
  for (int i = 0; i < ROWS; i++) {
     for (int j = 0; j < COLUMNS; j++) {
-      matrix[i][j] =  Alphabet[rand() % MAX];   //CREATES A 10 BY 10 MATR›X CONS›ST›NG OF THE LETTERS ABOVE 
+      matrix[i][j] =  Alphabet[rand() % MAX];   //CREATES A 10 BY 10 MATR√ùX CONS√ùST√ùNG OF THE LETTERS ABOVE 
     }
   }
 for (int i = 0; i < ROWS; i++)
 {
-	for(int j = 0; j < COLUMNS; j++){          //PR›NTS A MATR›X OF LETTER.
+	for(int j = 0; j < COLUMNS; j++){          //PR√ùNTS A MATR√ùX OF LETTER.
 		cout<<matrix[i][j];
 		
 	}
